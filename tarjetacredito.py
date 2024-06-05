@@ -25,4 +25,4 @@ class TarjetaCredito:
 
    def cobrar_interes(self):
         self.saldo_pagar += self.saldo_pagar * self.intereses
-        print(f"Hemos agregado intereses del {self.intereses}, tu nuevo saldo a pagar es de: ${self.saldo_pagar}")
+        print(f"Se adicionó: ${self.intereses} pesos en intereses, el nuevo monto a pagar es de: ${self.saldo_pagar}")
