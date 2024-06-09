@@ -2,7 +2,7 @@ class TarjetaCredito:
 
    lista_tarjetas = []
 
-   def __init__(self, saldo_pagar = 0, limite_credito = 1000, intereses = 0.02):
+   def __init__(self, saldo_pagar, limite_credito, intereses):
 
        self.saldo_pagar = saldo_pagar
        self.limite_credito = limite_credito
